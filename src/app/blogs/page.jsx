@@ -1,9 +1,12 @@
+import Navbar from "../components/Navbar/navbar";
+
 export default function Blogs() {
   return (
     <>
-      <div>
-        <h1>Blogs</h1>
-      </div>
+      {/* Navbar */}
+      <section id="navbar">
+        <Navbar />
+      </section>
     </>
-  )
+  );
 }
